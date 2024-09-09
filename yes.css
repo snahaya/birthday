@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use 100vh to ensure full viewport height */
+    background-color: #e3f3c4; /* Light background color */
+    background-image: url('C:/Users/LENOVO/OneDrive/Documents/birthday/bg.png'); /* Path to your background image */
+    background-size: 170%;/* Ensure the background covers the entire page */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center; 
+}
+
+.scroll-container {
+    position: relative;
+    text-align: center;
+}
+
+.scroll-image {
+    width: 100%; /* Increase the width to 100% */
+    max-width: 1300px; /* Increase max-width to make the scroll bigger */
+}
+
+.message-container {
+    position: absolute;
+    top: 50%; /* Center the message container vertically */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; /* Increase width to allow more space for the message */
+    color: #8b4513; /* Dark brown color for the text */
+    font-family: 'Great Vibes', cursive; /* Beautiful font */
+    font-size: 28px; /* Slightly increase font size */
+    line-height: 1.5; /* Adjust line height for better readability */
+    padding: 0; /* Remove padding to eliminate extra space */
+    letter-spacing: 2px;
+}
