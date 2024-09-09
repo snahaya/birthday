@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 90vh;
     background-color: #bde17a;
-    background-image: url('C:/Users/LENOVO/OneDrive/Documents/birthday/decor2.png');
+    background-image: url('decor2.png');
     background-size: cover; /* Ensures the image covers the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center;
