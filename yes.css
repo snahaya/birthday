@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh; /* Use 100vh to ensure full viewport height */
     background-color: #e3f3c4; /* Light background color */
-    background-image: url('C:/Users/LENOVO/OneDrive/Documents/birthday/bg.png'); /* Path to your background image */
+    background-image: url('bg.png'); /* Path to your background image */
     background-size: 170%;/* Ensure the background covers the entire page */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
     background-position: center; 
