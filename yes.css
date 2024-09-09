@@ -40,9 +40,5 @@ body {
     line-height: 1.5; /* Adjust line height for better readability */
     padding: 0; /* Remove padding to eliminate extra space */
     letter-spacing: 1px;
-    overflow-y: auto; /* Allow scrolling within the container */
 }
 
-.message-container::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for a cleaner look */
-}
