@@ -14,6 +14,10 @@ body {
     background-position: center;
 }
 
+body::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}
+
 .scroll-container {
     position: relative;
     text-align: center; /* Hide any overflow to ensure the message stays within the visible area */
